@@ -1,7 +1,7 @@
 ## Lista de tarefas - to-do-list
 
 
-<p>Criado com HTML, CSS, JavaScript e Git</p>
+<p>Criado com JavaScript, HTML, CSS e Git</p>
 <p>Versão V1.0</p>
 <br>
 
