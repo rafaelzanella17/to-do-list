@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO LIST</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <ul data-js="listaTarefas" class="lista">
+    <li class="lista__li">
+      <span>HTML5</span>
+      <i class="material-symbols-outlined">delete</i>
+    </li>
+  
+    <li class="lista__li">
+      <span>CSS3</span>
+      <i class="material-symbols-outlined">delete</i>
+    </li>
+  
+    <li class="lista__li">
+      <span>JavaScript</span>
+      <i class="material-symbols-outlined">delete</i>
+    </li>
+  </ul>
+  
+  <form data-js="formulario" class="form">
+    <label for="adicionar">Adicionar</label>
+    <input class="form__adicionar" type="text" name="adicionar" placeholder="Digite e tecle enter">
+  </form>
+
+  <footer>
+    <p><span class="nome">Rafael Zanella</span>, Nova Roma do Sul - RS</p>
+    <p><span class="espaco">&nbsp;|</span>Data Criação 30/06/2024</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
